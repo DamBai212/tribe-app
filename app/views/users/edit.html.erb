@@ -1,0 +1,7 @@
+<h1>Edit Profile</h1>
+
+<%= render 'users/components/form' %>
+
+<%= form_for @user, method: :delete do |f| %>
+  <%= f.submit "Delete Profile" %>
+<% end %>
