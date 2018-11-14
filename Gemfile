@@ -6,6 +6,9 @@ ruby '2.3.3'
 gem 'bootstrap'
 gem 'jquery-rails'
 
+gem 'omniauth', '~> 1.6.1'
+gem 'omniauth-auth0', '~> 2.0.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 # Use postgresql as the database for Active Record
