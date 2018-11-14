@@ -1,0 +1,7 @@
+<h1>Edit Course</h1>
+
+<%= render 'courses/components/form' %>
+
+<%= form_for @course, method: :delete do |f| %>
+  <%= f.submit "Delete Course" %>
+<% end %>
